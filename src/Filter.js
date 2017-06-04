@@ -1,15 +1,12 @@
-import React, { createElement } from 'react'
+import React from 'react'
 import { element, string, object, node, oneOfType } from 'prop-types'
 import mapFilters from 'map-css-filters'
 
-const Filter = ({ component = 'div', filter, children, ...props }) => {
-  const c = createElement(component)
-  return (
-    <c.type {...props} style={{filter: mapFilters(filter)}}>
-      {children}
-    </c.type>
-  )
-}
+const Filter = ({ filter, children, ...props }) => (
+  <div {...props} style={{filter: mapFilters(filter)}}>
+    {children}
+  </div>
+)
 
 Filter.propTypes = {
   component: oneOfType([element, string]),
