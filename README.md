@@ -1,3 +1,3 @@
 # react-css-filter
 
-TODO
+A CSS Filter wrapper as a React component.
