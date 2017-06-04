@@ -11,10 +11,12 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
+    "standard": "^10.0.2",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
@@ -37,5 +39,9 @@
   "bugs": {
     "url": "https://github.com/AgtLucas/react-css-filter/issues"
   },
-  "homepage": "https://github.com/AgtLucas/react-css-filter#readme"
+  "homepage": "https://github.com/AgtLucas/react-css-filter#readme",
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": ["ReactClass"]
+  }
 }
