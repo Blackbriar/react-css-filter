@@ -4,6 +4,7 @@
   "description": "React wrapper for CSS filter",
   "main": "index.js",
   "dependencies": {
+    "map-css-filters": "^1.0.0",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -42,6 +43,8 @@
   "homepage": "https://github.com/AgtLucas/react-css-filter#readme",
   "standard": {
     "parser": "babel-eslint",
-    "globals": ["ReactClass"]
+    "globals": [
+      "ReactClass"
+    ]
   }
 }

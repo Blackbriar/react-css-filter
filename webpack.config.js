@@ -1,11 +1,17 @@
 const path = require('path')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './demo/index.js',
 
   output: {
-    path: path.join(__dirname, 'app'),
+    path: path.join(__dirname, 'demo'),
     filename: 'bundle.js'
+  },
+
+  resolve: {
+    alias: {
+      'react-css-filter': path.join(__dirname, 'src/Filter')
+    }
   },
 
   module: {
@@ -19,7 +25,7 @@ module.exports = {
   },
 
   devServer: {
-    contentBase: 'app/',
+    contentBase: 'demo/',
     historyApiFallback: true
   }
 }
