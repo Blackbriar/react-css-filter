@@ -2,7 +2,7 @@
   "name": "react-css-filter",
   "version": "1.0.0",
   "description": "React wrapper for CSS filter",
-  "main": "index.js",
+  "main": "dist/Filter.js",
   "dependencies": {
     "map-css-filters": "^1.0.0",
     "prop-types": "^15.5.10",
@@ -14,6 +14,7 @@
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
