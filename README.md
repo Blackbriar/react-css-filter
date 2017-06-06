@@ -6,6 +6,10 @@ A CSS Filter wrapper as a React component.
 
 ## Usage:
 
+```sh
+yarn add react-css-filter
+```
+
 * Import Filter component
 * Declare and pass an `effects` object with desired filter effects. Please, see [CSS Filter documentation](https://developer.mozilla.org/en/docs/Web/CSS/filter?v=control) for all the options.
 
