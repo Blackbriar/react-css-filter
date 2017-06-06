@@ -10,7 +10,7 @@ const Filter = ({ effects, children, ...props }) => (
 
 Filter.propTypes = {
   component: oneOfType([element, string]),
-  filter: object.isRequired,
+  effects: object.isRequired,
   children: node
 }
 
