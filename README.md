@@ -1,4 +1,4 @@
-# react-css-filter
+# react-css-filter [![npm version](https://img.shields.io/npm/v/react-css-filter.svg)](https://www.npmjs.com/package/react-css-filter)
 
 A CSS Filter wrapper as a React component.
 
