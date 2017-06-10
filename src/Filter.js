@@ -1,14 +1,18 @@
 import React from 'react'
-import { element, string, object, node, oneOfType } from 'prop-types'
+import styled from 'styled-components'
+import { object, node } from 'prop-types'
 import mapFilters from 'map-css-filters'
 
-const Filter = ({ effects, children, ...props }) =>
-  <div {...props} style={{ filter: mapFilters(effects) }}>
+const FilterWrapper = styled.div`
+  filter: ${props => mapFilters(props.effects)};
+`
+
+const Filter = ({ children, ...props }) =>
+  <FilterWrapper {...props}>
     {children}
-  </div>
+  </FilterWrapper>
 
 Filter.propTypes = {
-  component: oneOfType([element, string]),
   effects: object.isRequired,
   children: node
 }
