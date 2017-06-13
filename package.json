@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgtLucas/react-css-filter.git"
+    "url": "git+https://github.com/Blackbriar/react-css-filter.git"
   },
   "keywords": [
     "react",
@@ -42,9 +42,9 @@
   "author": "Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AgtLucas/react-css-filter/issues"
+    "url": "https://github.com/Blackbriar/react-css-filter/issues"
   },
-  "homepage": "https://github.com/AgtLucas/react-css-filter#readme",
+  "homepage": "https://github.com/Blackbriar/react-css-filter#readme",
   "standard": {
     "parser": "babel-eslint",
     "globals": [
